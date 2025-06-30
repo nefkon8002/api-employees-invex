@@ -1,4 +1,4 @@
-package mx.calling.ninja.api.resources;
+package mx.plusnetwork.api.resources;
 
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.springframework.boot.test.autoconfigure.web.reactive.AutoConfigureWebTestClient;

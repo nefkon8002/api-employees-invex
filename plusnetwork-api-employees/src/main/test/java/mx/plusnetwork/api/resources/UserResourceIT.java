@@ -1,14 +1,14 @@
-package mx.calling.ninja.api.resources;
+package mx.plusnetwork.api.resources;
 
-import mx.calling.ninja.api.dtos.UserDto;
-import mx.calling.ninja.data.model.Role;
+import mx.plusnetwork.api.dtos.UserDto;
+import mx.plusnetwork.data.model.Role;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.test.web.reactive.server.WebTestClient;
 import reactor.core.publisher.Mono;
 
-import static mx.calling.ninja.api.resources.UserResource.*;
+import static mx.plusnetwork.api.resources.UserResource.*;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 

@@ -1,8 +1,8 @@
-package mx.calling.ninja.api.resources;
+package mx.plusnetwork.api.resources;
 
-import mx.calling.ninja.api.dtos.TokenDto;
-import mx.calling.ninja.data.model.Role;
-import mx.calling.ninja.services.JwtService;
+import mx.plusnetwork.api.dtos.TokenDto;
+import mx.plusnetwork.data.model.Role;
+import mx.plusnetwork.services.JwtService;
 import org.junit.jupiter.api.Assertions;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

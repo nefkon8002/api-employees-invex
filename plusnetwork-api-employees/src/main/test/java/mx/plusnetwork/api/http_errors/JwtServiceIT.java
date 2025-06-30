@@ -1,7 +1,7 @@
-package mx.calling.ninja.api.http_errors;
+package mx.plusnetwork.api.http_errors;
 
-import mx.calling.ninja.TestConfig;
-import mx.calling.ninja.services.JwtService;
+import mx.plusnetwork.TestConfig;
+import mx.plusnetwork.services.JwtService;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 

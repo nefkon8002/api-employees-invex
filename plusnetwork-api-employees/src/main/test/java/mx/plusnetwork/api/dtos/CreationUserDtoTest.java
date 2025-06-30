@@ -1,6 +1,6 @@
-package mx.calling.ninja.api.dtos;
+package mx.plusnetwork.api.dtos;
 
-import mx.calling.ninja.data.model.User;
+import mx.plusnetwork.data.model.User;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertNotNull;
