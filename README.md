@@ -9,6 +9,9 @@ se encarga de construir la imagen con la version de java 11 compila y arranca el
 Cabe mansionar que la API Employee tiene implementado el mecanismo de authenticacion BASIC AUTHENTICATION 
 https://docs.spring.io/spring-security/reference/servlet/authentication/passwords/basic.html
 
+Se aplica la practica devsecops los secrets se manejan con la herramienta Teller para no exponer claves sensibles 
+https://github.com/tellerops/teller
+
 
 
 https://localhost:8082/swagger-ui/index.html#/employee-resource/readEmployeeByGuid
