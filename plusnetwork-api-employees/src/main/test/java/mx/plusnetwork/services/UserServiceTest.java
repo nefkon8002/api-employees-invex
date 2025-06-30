@@ -1,10 +1,10 @@
-package mx.calling.ninja.services;
+package mx.plusnetwork.services;
 
-import mx.calling.ninja.TestConfig;
-import mx.calling.ninja.data.model.Role;
-import mx.calling.ninja.data.model.User;
-import mx.calling.ninja.services.UserService;
-import mx.calling.ninja.services.exceptions.ForbiddenException;
+import mx.plusnetwork.TestConfig;
+import mx.plusnetwork.data.model.Role;
+import mx.plusnetwork.data.model.User;
+import mx.plusnetwork.services.UserService;
+import mx.plusnetwork.services.exceptions.ForbiddenException;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 

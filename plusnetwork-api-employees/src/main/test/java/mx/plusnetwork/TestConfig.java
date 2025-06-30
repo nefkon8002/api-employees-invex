@@ -1,4 +1,4 @@
-package mx.calling.ninja;
+package mx.plusnetwork;
 
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.springframework.boot.test.context.SpringBootTest;

@@ -1,13 +1,13 @@
-package mx.calling.ninja.data.daos;
+package mx.plusnetwork.data.daos;
 
-import mx.calling.ninja.TestConfig;
-import mx.calling.ninja.data.model.Role;
+import mx.plusnetwork.TestConfig;
+import mx.plusnetwork.data.model.Role;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import java.util.List;
 import java.util.Arrays;
-import static mx.calling.ninja.data.model.Role.*;
+import static mx.plusnetwork.data.model.Role.*;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 @TestConfig

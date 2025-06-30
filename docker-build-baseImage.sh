@@ -15,7 +15,7 @@ echo "//////////////////////////Building DOCKER COMPOSE DOWN\\\\\\\\\\\\\\\\\\\\
 ../../teller-x86_64-linux/v1.5.6/teller run -c .teller.bkp.yml -- docker compose -f docker-compose-dev-cloud.yml down --rmi local --remove-orphans
 # docker compose -f docker-compose-dev-cloud.yml down --rmi local --remove-orphans
 
-echo "//////////////////////////Building DOCKER COMPOSE UP\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"
+echo "////////////////////## <!-- Designed by Neftali Ramirez Chavez Junio 2023 nefkon80@gmail.com -->//////Building DOCKER COMPOSE UP\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"
 
  ../../teller-x86_64-linux/v1.5.6/teller run -c .teller.bkp.yml -- docker compose -f docker-compose-dev-cloud.yml up --force-recreate
 # docker compose -f docker-compose-dev-cloud.yml up --force-recreate

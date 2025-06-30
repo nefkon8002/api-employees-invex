@@ -1,4 +1,4 @@
-## <!-- Designed by Neftali Ramirez Chavez Julio 2023 nefkon@gmail.com -->
+## <!-- Designed by Neftali Ramirez Chavez junio 2025 neftali.ramirez@plusnetwork.cloud -->
 # cd /home/java/maven/bin/
 ## Development
 # mvn clean spring-boot:run 
@@ -9,9 +9,6 @@
 
 mvn --version 
 aws --version 
-# ls -ltr 
-# echo $MAVEN_HOME
-# java -jar callingninja-api-user-1.0.0-SNAPSHOT.jar
-# java -cp spring-boot-starter-webclient-1.0.0-SNAPSHOT.jar -jar callingninja-api-user-1.0.0-SNAPSHOT.jar
+
 
 
