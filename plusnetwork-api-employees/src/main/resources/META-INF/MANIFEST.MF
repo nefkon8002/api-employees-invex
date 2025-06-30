@@ -1,0 +1,215 @@
+Build-Number=002
+Main-Class=mx.calling.ninja.Application
+X-Compile-Source-JDK=1.8
+X-Compile-Target-JDK=1.8
+Class-Path: file:/home/nefkon8002/Docker/calling-ninja/callingninja-api-
+ user/target/classes/ file:/home/nefkon8002/Docker/calling-ninja/plusnet
+ work-starter-webclient/target/classes/ file:/home/nefkon8002/.m2/reposi
+ tory/org/springframework/boot/spring-boot-configuration-processor/2.7.7
+ /spring-boot-configuration-processor-2.7.7.jar file:/home/nefkon8002/.m
+ 2/repository/io/awspring/cloud/spring-cloud-starter-aws-secrets-manager
+ -config/2.4.4/spring-cloud-starter-aws-secrets-manager-config-2.4.4.jar
+  file:/home/nefkon8002/.m2/repository/io/awspring/cloud/spring-cloud-aw
+ s-secrets-manager-config/2.4.4/spring-cloud-aws-secrets-manager-config-
+ 2.4.4.jar file:/home/nefkon8002/.m2/repository/org/springframework/clou
+ d/spring-cloud-context/3.1.5/spring-cloud-context-3.1.5.jar file:/home/
+ nefkon8002/.m2/repository/com/amazonaws/aws-java-sdk-secretsmanager/1.1
+ 2.395/aws-java-sdk-secretsmanager-1.12.395.jar file:/home/nefkon8002/.m
+ 2/repository/com/amazonaws/jmespath-java/1.12.395/jmespath-java-1.12.39
+ 5.jar file:/home/nefkon8002/.m2/repository/io/awspring/cloud/spring-clo
+ ud-aws-core/2.4.4/spring-cloud-aws-core-2.4.4.jar file:/home/nefkon8002
+ /.m2/repository/com/amazonaws/aws-java-sdk-core/1.12.395/aws-java-sdk-c
+ ore-1.12.395.jar file:/home/nefkon8002/.m2/repository/commons-codec/com
+ mons-codec/1.15/commons-codec-1.15.jar file:/home/nefkon8002/.m2/reposi
+ tory/org/apache/httpcomponents/httpclient/4.5.14/httpclient-4.5.14.jar 
+ file:/home/nefkon8002/.m2/repository/org/apache/httpcomponents/httpcore
+ /4.4.16/httpcore-4.4.16.jar file:/home/nefkon8002/.m2/repository/softwa
+ re/amazon/ion/ion-java/1.0.2/ion-java-1.0.2.jar file:/home/nefkon8002/.
+ m2/repository/com/fasterxml/jackson/dataformat/jackson-dataformat-cbor/
+ 2.13.4/jackson-dataformat-cbor-2.13.4.jar file:/home/nefkon8002/.m2/rep
+ ository/joda-time/joda-time/2.8.1/joda-time-2.8.1.jar file:/home/nefkon
+ 8002/.m2/repository/com/amazonaws/aws-java-sdk-s3/1.12.395/aws-java-sdk
+ -s3-1.12.395.jar file:/home/nefkon8002/.m2/repository/com/amazonaws/aws
+ -java-sdk-kms/1.12.395/aws-java-sdk-kms-1.12.395.jar file:/home/nefkon8
+ 002/.m2/repository/com/amazonaws/aws-java-sdk-ec2/1.12.395/aws-java-sdk
+ -ec2-1.12.395.jar file:/home/nefkon8002/.m2/repository/org/slf4j/slf4j-
+ api/1.7.36/slf4j-api-1.7.36.jar file:/home/nefkon8002/.m2/repository/ja
+ vax/activation/javax.activation-api/1.2.0/javax.activation-api-1.2.0.ja
+ r file:/home/nefkon8002/.m2/repository/io/awspring/cloud/spring-cloud-a
+ ws-context/2.4.4/spring-cloud-aws-context-2.4.4.jar file:/home/nefkon80
+ 02/.m2/repository/org/springframework/spring-context/5.3.24/spring-cont
+ ext-5.3.24.jar file:/home/nefkon8002/.m2/repository/org/springframework
+ /boot/spring-boot-starter/2.7.7/spring-boot-starter-2.7.7.jar file:/hom
+ e/nefkon8002/.m2/repository/org/springframework/boot/spring-boot/2.7.7/
+ spring-boot-2.7.7.jar file:/home/nefkon8002/.m2/repository/org/springfr
+ amework/boot/spring-boot-autoconfigure/2.7.7/spring-boot-autoconfigure-
+ 2.7.7.jar file:/home/nefkon8002/.m2/repository/org/springframework/boot
+ /spring-boot-starter-logging/2.7.7/spring-boot-starter-logging-2.7.7.ja
+ r file:/home/nefkon8002/.m2/repository/ch/qos/logback/logback-classic/1
+ .2.11/logback-classic-1.2.11.jar file:/home/nefkon8002/.m2/repository/c
+ h/qos/logback/logback-core/1.2.11/logback-core-1.2.11.jar file:/home/ne
+ fkon8002/.m2/repository/org/apache/logging/log4j/log4j-to-slf4j/2.17.2/
+ log4j-to-slf4j-2.17.2.jar file:/home/nefkon8002/.m2/repository/org/apac
+ he/logging/log4j/log4j-api/2.17.2/log4j-api-2.17.2.jar file:/home/nefko
+ n8002/.m2/repository/org/slf4j/jul-to-slf4j/1.7.36/jul-to-slf4j-1.7.36.
+ jar file:/home/nefkon8002/.m2/repository/jakarta/annotation/jakarta.ann
+ otation-api/1.3.5/jakarta.annotation-api-1.3.5.jar file:/home/nefkon800
+ 2/.m2/repository/org/springframework/spring-core/5.3.24/spring-core-5.3
+ .24.jar file:/home/nefkon8002/.m2/repository/org/springframework/spring
+ -jcl/5.3.24/spring-jcl-5.3.24.jar file:/home/nefkon8002/.m2/repository/
+ org/yaml/snakeyaml/1.30/snakeyaml-1.30.jar file:/home/nefkon8002/.m2/re
+ pository/org/springframework/boot/spring-boot-starter-security/2.7.7/sp
+ ring-boot-starter-security-2.7.7.jar file:/home/nefkon8002/.m2/reposito
+ ry/org/springframework/spring-aop/5.3.24/spring-aop-5.3.24.jar file:/ho
+ me/nefkon8002/.m2/repository/org/springframework/spring-beans/5.3.24/sp
+ ring-beans-5.3.24.jar file:/home/nefkon8002/.m2/repository/org/springfr
+ amework/security/spring-security-config/5.7.6/spring-security-config-5.
+ 7.6.jar file:/home/nefkon8002/.m2/repository/org/springframework/securi
+ ty/spring-security-web/5.7.6/spring-security-web-5.7.6.jar file:/home/n
+ efkon8002/.m2/repository/org/springframework/spring-expression/5.3.24/s
+ pring-expression-5.3.24.jar file:/home/nefkon8002/.m2/repository/org/sp
+ ringframework/boot/spring-boot-starter-web/2.7.7/spring-boot-starter-we
+ b-2.7.7.jar file:/home/nefkon8002/.m2/repository/org/springframework/bo
+ ot/spring-boot-starter-json/2.7.7/spring-boot-starter-json-2.7.7.jar fi
+ le:/home/nefkon8002/.m2/repository/com/fasterxml/jackson/datatype/jacks
+ on-datatype-jdk8/2.13.4/jackson-datatype-jdk8-2.13.4.jar file:/home/nef
+ kon8002/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-
+ jsr310/2.13.4/jackson-datatype-jsr310-2.13.4.jar file:/home/nefkon8002/
+ .m2/repository/com/fasterxml/jackson/module/jackson-module-parameter-na
+ mes/2.13.4/jackson-module-parameter-names-2.13.4.jar file:/home/nefkon8
+ 002/.m2/repository/org/springframework/boot/spring-boot-starter-tomcat/
+ 2.7.7/spring-boot-starter-tomcat-2.7.7.jar file:/home/nefkon8002/.m2/re
+ pository/org/apache/tomcat/embed/tomcat-embed-core/9.0.70/tomcat-embed-
+ core-9.0.70.jar file:/home/nefkon8002/.m2/repository/org/apache/tomcat/
+ embed/tomcat-embed-websocket/9.0.70/tomcat-embed-websocket-9.0.70.jar f
+ ile:/home/nefkon8002/.m2/repository/org/springframework/spring-web/5.3.
+ 24/spring-web-5.3.24.jar file:/home/nefkon8002/.m2/repository/org/sprin
+ gframework/spring-webmvc/5.3.24/spring-webmvc-5.3.24.jar file:/home/nef
+ kon8002/.m2/repository/org/springframework/boot/spring-boot-starter-act
+ uator/2.7.7/spring-boot-starter-actuator-2.7.7.jar file:/home/nefkon800
+ 2/.m2/repository/org/springframework/boot/spring-boot-actuator-autoconf
+ igure/2.7.7/spring-boot-actuator-autoconfigure-2.7.7.jar file:/home/nef
+ kon8002/.m2/repository/org/springframework/boot/spring-boot-actuator/2.
+ 7.7/spring-boot-actuator-2.7.7.jar file:/home/nefkon8002/.m2/repository
+ /io/micrometer/micrometer-core/1.9.6/micrometer-core-1.9.6.jar file:/ho
+ me/nefkon8002/.m2/repository/org/hdrhistogram/HdrHistogram/2.1.12/HdrHi
+ stogram-2.1.12.jar file:/home/nefkon8002/.m2/repository/org/latencyutil
+ s/LatencyUtils/2.0.3/LatencyUtils-2.0.3.jar file:/home/nefkon8002/.m2/r
+ epository/org/springdoc/springdoc-openapi-ui/1.6.14/springdoc-openapi-u
+ i-1.6.14.jar file:/home/nefkon8002/.m2/repository/org/springdoc/springd
+ oc-openapi-webmvc-core/1.6.14/springdoc-openapi-webmvc-core-1.6.14.jar 
+ file:/home/nefkon8002/.m2/repository/org/springdoc/springdoc-openapi-co
+ mmon/1.6.14/springdoc-openapi-common-1.6.14.jar file:/home/nefkon8002/.
+ m2/repository/io/swagger/core/v3/swagger-core/2.2.7/swagger-core-2.2.7.
+ jar file:/home/nefkon8002/.m2/repository/org/apache/commons/commons-lan
+ g3/3.12.0/commons-lang3-3.12.0.jar file:/home/nefkon8002/.m2/repository
+ /com/fasterxml/jackson/dataformat/jackson-dataformat-yaml/2.13.4/jackso
+ n-dataformat-yaml-2.13.4.jar file:/home/nefkon8002/.m2/repository/io/sw
+ agger/core/v3/swagger-annotations/2.2.7/swagger-annotations-2.2.7.jar f
+ ile:/home/nefkon8002/.m2/repository/io/swagger/core/v3/swagger-models/2
+ .2.7/swagger-models-2.2.7.jar file:/home/nefkon8002/.m2/repository/org/
+ webjars/swagger-ui/4.15.5/swagger-ui-4.15.5.jar file:/home/nefkon8002/.
+ m2/repository/org/webjars/webjars-locator-core/0.50/webjars-locator-cor
+ e-0.50.jar file:/home/nefkon8002/.m2/repository/com/fasterxml/jackson/c
+ ore/jackson-core/2.13.4/jackson-core-2.13.4.jar file:/home/nefkon8002/.
+ m2/repository/io/github/classgraph/classgraph/4.8.149/classgraph-4.8.14
+ 9.jar file:/home/nefkon8002/.m2/repository/org/springframework/boot/spr
+ ing-boot-starter-validation/2.7.7/spring-boot-starter-validation-2.7.7.
+ jar file:/home/nefkon8002/.m2/repository/org/apache/tomcat/embed/tomcat
+ -embed-el/9.0.70/tomcat-embed-el-9.0.70.jar file:/home/nefkon8002/.m2/r
+ epository/org/hibernate/validator/hibernate-validator/6.2.5.Final/hiber
+ nate-validator-6.2.5.Final.jar file:/home/nefkon8002/.m2/repository/jak
+ arta/validation/jakarta.validation-api/2.0.2/jakarta.validation-api-2.0
+ .2.jar file:/home/nefkon8002/.m2/repository/org/jboss/logging/jboss-log
+ ging/3.4.3.Final/jboss-logging-3.4.3.Final.jar file:/home/nefkon8002/.m
+ 2/repository/com/fasterxml/classmate/1.5.1/classmate-1.5.1.jar file:/ho
+ me/nefkon8002/.m2/repository/org/springframework/boot/spring-boot-start
+ er-data-jpa/2.7.7/spring-boot-starter-data-jpa-2.7.7.jar file:/home/nef
+ kon8002/.m2/repository/org/springframework/boot/spring-boot-starter-aop
+ /2.7.7/spring-boot-starter-aop-2.7.7.jar file:/home/nefkon8002/.m2/repo
+ sitory/org/aspectj/aspectjweaver/1.9.7/aspectjweaver-1.9.7.jar file:/ho
+ me/nefkon8002/.m2/repository/org/springframework/boot/spring-boot-start
+ er-jdbc/2.7.7/spring-boot-starter-jdbc-2.7.7.jar file:/home/nefkon8002/
+ .m2/repository/com/zaxxer/HikariCP/4.0.3/HikariCP-4.0.3.jar file:/home/
+ nefkon8002/.m2/repository/org/springframework/spring-jdbc/5.3.24/spring
+ -jdbc-5.3.24.jar file:/home/nefkon8002/.m2/repository/jakarta/transacti
+ on/jakarta.transaction-api/1.3.3/jakarta.transaction-api-1.3.3.jar file
+ :/home/nefkon8002/.m2/repository/jakarta/persistence/jakarta.persistenc
+ e-api/2.2.3/jakarta.persistence-api-2.2.3.jar file:/home/nefkon8002/.m2
+ /repository/org/hibernate/hibernate-core/5.6.14.Final/hibernate-core-5.
+ 6.14.Final.jar file:/home/nefkon8002/.m2/repository/net/bytebuddy/byte-
+ buddy/1.12.20/byte-buddy-1.12.20.jar file:/home/nefkon8002/.m2/reposito
+ ry/antlr/antlr/2.7.7/antlr-2.7.7.jar file:/home/nefkon8002/.m2/reposito
+ ry/org/jboss/jandex/2.4.2.Final/jandex-2.4.2.Final.jar file:/home/nefko
+ n8002/.m2/repository/org/hibernate/common/hibernate-commons-annotations
+ /5.1.2.Final/hibernate-commons-annotations-5.1.2.Final.jar file:/home/n
+ efkon8002/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.7/jaxb-run
+ time-2.3.7.jar file:/home/nefkon8002/.m2/repository/org/glassfish/jaxb/
+ txw2/2.3.7/txw2-2.3.7.jar file:/home/nefkon8002/.m2/repository/com/sun/
+ istack/istack-commons-runtime/3.0.12/istack-commons-runtime-3.0.12.jar 
+ file:/home/nefkon8002/.m2/repository/com/sun/activation/jakarta.activat
+ ion/1.2.2/jakarta.activation-1.2.2.jar file:/home/nefkon8002/.m2/reposi
+ tory/org/springframework/data/spring-data-jpa/2.7.6/spring-data-jpa-2.7
+ .6.jar file:/home/nefkon8002/.m2/repository/org/springframework/data/sp
+ ring-data-commons/2.7.6/spring-data-commons-2.7.6.jar file:/home/nefkon
+ 8002/.m2/repository/org/springframework/spring-orm/5.3.24/spring-orm-5.
+ 3.24.jar file:/home/nefkon8002/.m2/repository/org/springframework/sprin
+ g-tx/5.3.24/spring-tx-5.3.24.jar file:/home/nefkon8002/.m2/repository/o
+ rg/springframework/spring-aspects/5.3.24/spring-aspects-5.3.24.jar file
+ :/home/nefkon8002/.m2/repository/mysql/mysql-connector-java/8.0.28/mysq
+ l-connector-java-8.0.28.jar file:/home/nefkon8002/.m2/repository/org/sp
+ ringframework/boot/spring-boot-starter-webflux/2.7.7/spring-boot-starte
+ r-webflux-2.7.7.jar file:/home/nefkon8002/.m2/repository/org/springfram
+ ework/boot/spring-boot-starter-reactor-netty/2.7.7/spring-boot-starter-
+ reactor-netty-2.7.7.jar file:/home/nefkon8002/.m2/repository/io/project
+ reactor/netty/reactor-netty-http/1.0.26/reactor-netty-http-1.0.26.jar f
+ ile:/home/nefkon8002/.m2/repository/io/netty/netty-codec-http/4.1.86.Fi
+ nal/netty-codec-http-4.1.86.Final.jar file:/home/nefkon8002/.m2/reposit
+ ory/io/netty/netty-common/4.1.86.Final/netty-common-4.1.86.Final.jar fi
+ le:/home/nefkon8002/.m2/repository/io/netty/netty-buffer/4.1.86.Final/n
+ etty-buffer-4.1.86.Final.jar file:/home/nefkon8002/.m2/repository/io/ne
+ tty/netty-transport/4.1.86.Final/netty-transport-4.1.86.Final.jar file:
+ /home/nefkon8002/.m2/repository/io/netty/netty-codec/4.1.86.Final/netty
+ -codec-4.1.86.Final.jar file:/home/nefkon8002/.m2/repository/io/netty/n
+ etty-handler/4.1.86.Final/netty-handler-4.1.86.Final.jar file:/home/nef
+ kon8002/.m2/repository/io/netty/netty-codec-http2/4.1.86.Final/netty-co
+ dec-http2-4.1.86.Final.jar file:/home/nefkon8002/.m2/repository/io/nett
+ y/netty-resolver-dns/4.1.86.Final/netty-resolver-dns-4.1.86.Final.jar f
+ ile:/home/nefkon8002/.m2/repository/io/netty/netty-resolver/4.1.86.Fina
+ l/netty-resolver-4.1.86.Final.jar file:/home/nefkon8002/.m2/repository/
+ io/netty/netty-codec-dns/4.1.86.Final/netty-codec-dns-4.1.86.Final.jar 
+ file:/home/nefkon8002/.m2/repository/io/netty/netty-resolver-dns-native
+ -macos/4.1.86.Final/netty-resolver-dns-native-macos-4.1.86.Final-osx-x8
+ 6_64.jar file:/home/nefkon8002/.m2/repository/io/netty/netty-resolver-d
+ ns-classes-macos/4.1.86.Final/netty-resolver-dns-classes-macos-4.1.86.F
+ inal.jar file:/home/nefkon8002/.m2/repository/io/netty/netty-transport-
+ native-epoll/4.1.86.Final/netty-transport-native-epoll-4.1.86.Final-lin
+ ux-x86_64.jar file:/home/nefkon8002/.m2/repository/io/netty/netty-trans
+ port-native-unix-common/4.1.86.Final/netty-transport-native-unix-common
+ -4.1.86.Final.jar file:/home/nefkon8002/.m2/repository/io/netty/netty-t
+ ransport-classes-epoll/4.1.86.Final/netty-transport-classes-epoll-4.1.8
+ 6.Final.jar file:/home/nefkon8002/.m2/repository/io/projectreactor/nett
+ y/reactor-netty-core/1.0.26/reactor-netty-core-1.0.26.jar file:/home/ne
+ fkon8002/.m2/repository/io/netty/netty-handler-proxy/4.1.86.Final/netty
+ -handler-proxy-4.1.86.Final.jar file:/home/nefkon8002/.m2/repository/io
+ /netty/netty-codec-socks/4.1.86.Final/netty-codec-socks-4.1.86.Final.ja
+ r file:/home/nefkon8002/.m2/repository/org/springframework/spring-webfl
+ ux/5.3.24/spring-webflux-5.3.24.jar file:/home/nefkon8002/.m2/repositor
+ y/com/auth0/java-jwt/4.3.0/java-jwt-4.3.0.jar file:/home/nefkon8002/.m2
+ /repository/com/fasterxml/jackson/core/jackson-databind/2.13.4.2/jackso
+ n-databind-2.13.4.2.jar file:/home/nefkon8002/.m2/repository/com/faster
+ xml/jackson/core/jackson-annotations/2.13.4/jackson-annotations-2.13.4.
+ jar file:/home/nefkon8002/.m2/repository/org/projectlombok/lombok/1.18.
+ 24/lombok-1.18.24.jar file:/home/nefkon8002/.m2/repository/jakarta/xml/
+ bind/jakarta.xml.bind-api/2.3.3/jakarta.xml.bind-api-2.3.3.jar file:/ho
+ me/nefkon8002/.m2/repository/jakarta/activation/jakarta.activation-api/
+ 1.2.2/jakarta.activation-api-1.2.2.jar file:/home/nefkon8002/.m2/reposi
+ tory/org/springframework/security/spring-security-core/5.7.6/spring-sec
+ urity-core-5.7.6.jar file:/home/nefkon8002/.m2/repository/org/springfra
+ mework/security/spring-security-crypto/5.7.6/spring-security-crypto-5.7
+ .6.jar file:/home/nefkon8002/.m2/repository/io/projectreactor/reactor-c
+ ore/3.4.26/reactor-core-3.4.26.jar file:/home/nefkon8002/.m2/repository
+ /org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4.jar
+
+
+

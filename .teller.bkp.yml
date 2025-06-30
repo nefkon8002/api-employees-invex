@@ -1,0 +1,34 @@
+project: invex
+providers:
+  aws_secretsmanager:
+    # kind: aws_secretsmanager
+    # region: ${AWS_REGION}
+    # maps:
+    # - id: token_access
+    #   path: prod/plusnetwork/access_token
+    #   keys:
+    #     plusnetwork_access_key: PLUSNETWORK_ACCESS_KEY 
+    # env_sync:
+    #   path: prod/plusnetwork/access_token
+    env:
+      MYSQL_TCP_PORT:
+        path: prod/plusnetwork/access_token
+        field: mysql_tcp_port
+      MYSQL_USER:
+        path: prod/plusnetwork/access_token
+        field: mysql_user
+      MYSQL_PASSWORD:
+        path: prod/plusnetwork/access_token
+        field: mysql_password
+      MYSQL_DATABASE:
+        path: prod/plusnetwork/access_token
+        field: mysql_database
+      MYSQL_ROOT_PASSWORD:
+        path: prod/plusnetwork/access_token
+        field: mysql_root_password
+      PLUSNETWORK_ACCESS_KEY:
+        path: prod/plusnetwork/access_token
+        field: access_token_v2
+      AWS_PROFILE: 
+        path: prod/plusnetwork/access_token
+        field: aws_profile
